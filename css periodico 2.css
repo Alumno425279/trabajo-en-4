@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body {
+    background: url(./img/bulli2.png);
+    background-size: cover;
+    width: 80%;
+}
+
+#cabecera {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#cajapadre {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    height: 600px;
+    background:url(./img/bulli\ logo.png);
+    background-size: cover;
+    margin-left:15%;
+}
+
+.cajita1,
+.cajita2 {
+    font-size: 18px;
+    width: 30%;
+    margin: 4%;
+    border: 10px solid;
+    border-style:ridge;
+    padding-left:2%;
+    padding-right: 1%;
+    padding-bottom: 6%;
+    padding-top: 2%;
+    
+}
+
+#pie {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+}
