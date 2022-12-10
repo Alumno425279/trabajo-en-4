@@ -1,8 +1,8 @@
 * {
     margin:1px;
     padding:1px;
-    font-size: 22px;color:darkgreen;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;color:darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
   h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,14 +28,18 @@
   align-items:flex-end;
   height: 300px;
   color:black;
+  
   }
   .caja1, .caja2, .caja3 {
     width: 280px;
     float: left;
     margin: 20px;
     padding-top: 130px;
+    padding-left: 6px;
+    padding-right: 6px;
     border: 3px solid black; 
     border-style:dashed;
+    
 
   }
   #pie {
@@ -50,13 +54,16 @@
   .caja1{
     background: url(./img/Ferran.jpg);
     background-size: cover;
+    flex-grow: 2;
   }
   .caja2{
     background: url(./img/angel\ leon.jpg);
     background-size: cover;
+    flex-grow:1;
   }
   .caja3{
-    background: url(./img/pedro\ subijana.jpg);
+    background: url(./img/abraham.jpg);
     background-size: cover;
+    flex-grow: 1;
   }
   
