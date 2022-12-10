@@ -1,15 +1,25 @@
-
-#contenedor1{
+body{
+  background: url(./img/vanguardia\ 2.webp);
+  background-size: cover;
+  padding-top: 3%;
+}
+#cajapadre {
   display: flex;
   flex-flow: row wrap;
-  background-color: #000;  
+  background-color:burlywood; 
   height: 400px;
-  color:white;
-  font-size:2rem;
+  color:black;
+  font-size:1rem;
+  padding-top: 10%;
 }
 
-.item {
-  background-color: #0078A6;
-  width:150px;
-  height:150px;
+.cajita{
+  background-color:aliceblue;
+  width:250px;
+  height:250px;
+  margin: 4%;
+  padding-top:1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom:1%;
 }
