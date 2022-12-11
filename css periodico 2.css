@@ -59,3 +59,8 @@ p:first-child{
 p:last-child{
     border-bottom: 2px solid black;
 }
+p::first-letter {
+    font-size:2rem;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }

@@ -7,7 +7,7 @@ body{
    padding-top: 15%;
     height: 300px;
     color:black;
-    font-size:1.5rem;
+    font-size:1.4rem;
   }
   
   #cajita1 {  
@@ -37,7 +37,7 @@ body{
   #cajita2,
   #cajita3{
     background-color: antiquewhite;
-    border: 8px solid;
+    border: 8px solid gray;
     border-style: ridge;
     padding-left: 1%;
     padding-right: 1%;
@@ -63,4 +63,9 @@ body{
   }
   tr:nth-child(even){
     background-color: orangered;
+  }
+  p::first-letter {
+    font-size:2rem;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
