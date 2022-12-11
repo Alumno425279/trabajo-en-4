@@ -11,8 +11,8 @@ body{
   }
   
   #cajita1 {  
-    background:url(./img/lit\ vanguardia.jpg);
-    background-size: cover;
+    background-color: antiquewhite;
+   
     align-self:flex-end;
     height: 400px;
     width: 450px;
@@ -26,16 +26,17 @@ body{
     flex-basis: 30%;
     align-self:flex-end;
     order:1;
-    margin-left: 10px;
-    border: 8px solid;
-    border-style:groove;
-    padding-left: 1%;
-    padding-right: 1%;
+  
   }
   #cajita3 {
    flex-basis: 30%; 
     align-self:stretch;
     order: 3;
+   
+  }
+  #cajita2,
+  #cajita3{
+    background-color: antiquewhite;
     border: 8px solid;
     border-style: ridge;
     padding-left: 1%;
@@ -43,4 +44,23 @@ body{
   }
   h1{
     text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    width:68%;
+    margin-top: 10%;
+    margin-left: 16%;
+    
+  }
+  
+  td {
+    border: 3px solid brown;
+    text-align:center;
+  }
+  tr:nth-child(odd){
+    background-color:yellowgreen;
+    
+  }
+  tr:nth-child(even){
+    background-color: orangered;
   }
