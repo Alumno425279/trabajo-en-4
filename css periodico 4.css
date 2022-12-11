@@ -69,3 +69,8 @@ body{
     color:black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+  td:first-letter {
+    font-size:1.6rem;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
