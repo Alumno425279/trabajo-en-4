@@ -10,7 +10,8 @@ body{
 #cajapadre {
   display: flex;
   flex-flow: row wrap;
-  background-color:burlywood; 
+  background:url(./img/TentaciónSan-Antonio-Dalí.jpg);
+  background-size: cover; 
   height: 400px;
   color:black;
   font-size:1rem;
