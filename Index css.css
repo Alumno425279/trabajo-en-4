@@ -90,3 +90,7 @@ p::first-letter {
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+h1{
+  color: #eee;
+}

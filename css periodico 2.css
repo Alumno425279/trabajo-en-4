@@ -13,8 +13,12 @@ body {
     background: url(./img/Ferran.jpg);
     background-size: cover;
     height: 300px;
+ 
 }
 
+h1{
+    color: #eee;
+}
 #cajapadre {
     display: flex;
     flex-wrap: wrap;
