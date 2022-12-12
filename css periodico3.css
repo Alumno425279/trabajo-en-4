@@ -1,31 +1,32 @@
-body{
+body {
   background: url(./img/vanguardia\ 2.webp);
   background-size: cover;
   padding-top: 3%;
 }
-#cabecera{
+
+#cabecera {
   text-align: center;
   font-size: 30px;
 }
+
 #cajapadre {
   display: flex;
   flex-flow: row wrap;
-  background:url(./img/TentaciónSan-Antonio-Dalí.jpg);
-  background-size: cover; 
+  background: url(./img/TentaciónSan-Antonio-Dalí.jpg);
+  background-size: cover;
   height: 400px;
-  color:black;
-  font-size:1rem;
+  color: black;
+  font-size: 1rem;
   padding-top: 10%;
 }
 
-.cajita{
-  background-color:aliceblue;
-  width:250px;
-  height:250px;
+.cajita {
+  background-color: aliceblue;
+  width: 250px;
+  height: 250px;
   margin: 4%;
-  padding-top:1%;
+  padding-top: 1%;
   padding-left: 1%;
   padding-right: 1%;
-  padding-bottom:1%;
+  padding-bottom: 1%;
 }
-
