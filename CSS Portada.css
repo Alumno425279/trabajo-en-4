@@ -1,0 +1,12 @@
+body {
+    background: url(./img/Vanguardias.jpeg);
+    background-size: 100%;
+}
+a {
+    background-color: black;
+    margin: 30%;
+    padding: 2%;
+  }
+  a {
+    color: red;
+  }
