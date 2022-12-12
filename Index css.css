@@ -5,24 +5,20 @@
   color: black;
   font-family: 'Courier New', Courier, monospace;
 }
-
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 div>p {
   color: darkred;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
 }
-
 body {
   width: 1100px;
   margin: 0 auto;
   background: url(./img/mosta.webp);
   background-size: cover;
 }
-
 #cabecera {
 
   padding: 16px;
@@ -30,7 +26,6 @@ body {
   text-align: center;
   border: 2px solid black;
 }
-
 #cajapadre {
   display: flex;
   flex-direction: row-reverse;
@@ -40,7 +35,6 @@ body {
   color: black;
 
 }
-
 .caja1,
 .caja2,
 .caja3 {
@@ -55,7 +49,6 @@ body {
 
 
 }
-
 #pie {
   width: 630px;
   height: 150px;
@@ -70,26 +63,22 @@ body {
   background-size: cover;
   flex-grow: 4;
 }
-
 .caja2 {
   background: url(./img/monet-.jpg);
   background-size: cover;
   flex-grow: 4.5;
 }
-
 .caja3 {
   background: url(./img/lit3.webp);
   background-size: cover;
   flex-grow: 5;
 
 }
-
 p::first-letter {
   font-size: 2rem;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 h1{
   color: #eee;
 }
