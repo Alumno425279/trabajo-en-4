@@ -4,7 +4,7 @@ body{
 }
 #cajapadre{
     display: flex;
-   padding-top: 15%;
+   padding-top: 25%;
     height: 300px;
     color:black;
     font-size:1.4rem;
@@ -41,6 +41,7 @@ body{
     border-style: ridge;
     padding-left: 1%;
     padding-right: 1%;
+    
   }
   h1{
     text-align: center;
