@@ -3,12 +3,10 @@ body {
   background-size: cover;
   padding-top: 3%;
 }
-
 #cabecera {
   text-align: center;
   font-size: 30px;
 }
-
 #cajapadre {
   display: flex;
   flex-flow: row wrap;
@@ -19,7 +17,6 @@ body {
   font-size: 1rem;
   padding-top: 10%;
 }
-
 .cajita {
   background-color: aliceblue;
   width: 250px;
