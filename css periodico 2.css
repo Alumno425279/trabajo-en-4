@@ -70,6 +70,6 @@ input{
     border: 2px solid green;
     border-radius: 4px;
   }
-  a[target]{
+  a{
     color:#f00;
   }

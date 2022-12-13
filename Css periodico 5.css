@@ -44,5 +44,11 @@ body{
   #pie>p {
 color: aqua;
   }
+  div:empty{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: rgb(43, 226, 70);
+  }
  
  
