@@ -3,6 +3,7 @@ body {
     background-size: cover;
     width: 80%;
 }
+
 #cabecera {
     padding: 2%;
     padding-bottom: 2%;
@@ -12,11 +13,13 @@ body {
     background: url(./img/Ferran.jpg);
     background-size: cover;
     height: 300px;
- 
+
 }
-h1{
+
+h1 {
     color: #eee;
 }
+
 #cajapadre {
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +31,7 @@ h1{
     padding-top: 3%;
 
 }
+
 .cajita1,
 .cajita2 {
     font-size: 18px;
@@ -35,41 +39,49 @@ h1{
     margin: 4%;
     margin-top: -2%;
     margin-left: 5%;
-  
+
     padding-left: 2%;
     padding-right: 1%;
     padding-bottom: 6%;
     padding-top: 2%;
 
 }
+
 .cajita1 {
     flex-basis: 90%;
 }
+
 .cajita2 {
     flex-basis: 90%;
 }
+
 #pie {
     background-color: #eee;
     padding: 10px;
     margin: 10px;
     clear: both;
 }
+
 p:first-child {
     border-top: 2px solid black;
 
 }
+
 p:last-child {
     border-bottom: 2px solid black;
 }
+
 p::first-letter {
     font-size: 2rem;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-input{
+
+input {
     border: 2px solid green;
     border-radius: 4px;
-  }
-  a{
-    color:#f00;
-  }
+}
+
+a {
+    color: #f00;
+}
